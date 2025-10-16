@@ -1,0 +1,72 @@
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #667eea;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.weather-card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.temp {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.weather-card p {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
