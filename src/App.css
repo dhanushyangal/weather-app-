@@ -6,67 +6,76 @@
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  color: #FFD700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.search-box {
+.box {
   display: flex;
-  gap: 8px;
+  gap: 10px;
 }
 
 input {
   flex: 1;
-  padding: 10px 15px;
+  padding: 12px 18px;
   font-size: 1rem;
-  border: 2px solid #fff;
-  border-radius: 8px;
+  border: 3px solid #FFD700;
+  border-radius: 25px;
   outline: none;
+  background: rgba(255,255,255,0.9);
 }
 
 button {
-  padding: 10px 25px;
+  padding: 12px 30px;
   font-size: 1rem;
   border: none;
-  border-radius: 8px;
-  background: #fff;
-  color: #667eea;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #fff;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255,215,0,0.4);
+  transition: transform 0.2s;
 }
 
 button:hover {
-  background: #f0f0f0;
+  transform: scale(1.05);
 }
 
-.weather-card {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 15px;
+.card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+  border: 2px solid rgba(255,215,0,0.5);
+  border-radius: 20px;
   padding: 2rem;
   margin-top: 2rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 }
 
-.weather-card h2 {
-  margin: 0 0 1rem;
-  font-size: 1.5rem;
+.card h2 {
+  font-size: 1.8rem;
+  color: #FFD700;
+  margin-bottom: 1rem;
 }
 
 .temp {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: bold;
-  margin: 1rem 0;
+  color: #FF6B6B;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
-.weather-card p {
-  font-size: 1.1rem;
-  text-transform: capitalize;
-  margin-bottom: 1rem;
+.card p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #fff;
 }
 
 .info {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  color: #fff;
 }
